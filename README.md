@@ -21,7 +21,9 @@ REST API consists of 2 methods:
 
 
 1. GET - /credits returns the list of all credits in the following format:
-`[
+
+```json
+[
      {
          "customer": {
              "creditId": 1,
@@ -56,11 +58,14 @@ REST API consists of 2 methods:
              "creditName": "Test Test"
          }
      }
- ]`
+ ]
+```
+
  <br />
  2. POST - /credits accepts a data object:
- <br />
-  `{
+ 
+```json
+{
        "customer": {
            "firstName": "Piotr22",
            "pesel": "12345678902",
@@ -73,14 +78,18 @@ REST API consists of 2 methods:
        "credit": {
            "creditName": "Test Test"
        }
-   }` 
-   <br />
+   }
+```
+
    and returns the credit id:
-   <br />
-   `{
-        "id": 2,
-        "creditName": "Test Test"
-    }`
+   
+   ```json
+   {
+           "id": 2,
+           "creditName": "Test Test"
+       }
+   ```
+   
     
  ## How to run application
  
