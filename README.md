@@ -103,10 +103,8 @@ REST API consists of 2 methods:
  
  When all microservices are running you can start to interact with
  the API by calling GET or POST methods in your Postman.
- <br />
  Credit service runs on port 8100 so to get all credits you will
- need to send GET request to:
-  [localhost://8100/credits](localhost://8100/credits)
+ need to send GET request to: [localhost://8100/credits](localhost://8100/credits)
     
  ## Needs implementation
  
