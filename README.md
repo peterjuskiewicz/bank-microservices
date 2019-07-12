@@ -8,7 +8,7 @@ The application is built using microservices architecture and it consists of 5 m
 |---|---|
 |  Database |  8000 |   
 |  Credit |   8100|   
-|  Credit | 8200  |  
+|  Customer | 8200  |  
 |  Product | 8300  |   
 |  Eureka | 8761  |   
 
