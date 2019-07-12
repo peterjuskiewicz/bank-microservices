@@ -4,8 +4,8 @@
 
 The application is built using microservices architecture and it consists of 5 microservices.
 
-| Microservice  |  Port |   |   |   |
-|---|---|---|---|---|
+| Microservice  |  Port |   
+|---|---|
 |  Database |  8000 |   
 |  Customer |   8100|   
 | Credit  | 8200  |  
@@ -21,7 +21,6 @@ REST API consists of 2 methods:
 
 
 1. GET - /credits returns the list of all credits in the following format:
-<br />
 `[
      {
          "customer": {
