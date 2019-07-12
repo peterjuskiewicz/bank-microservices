@@ -83,6 +83,23 @@ REST API consists of 2 methods:
         "creditName": "Test Test"
     }`
     
+ ## How to run application
+ 
+ To run the application you need to run each microservice 
+ separately with `mvn spring-boot:run` in the following order:
+ 1. Eureka discovery server
+ 2. Database microservice
+ 3. Customer microservice
+ 4. Product microservice
+ 5. Credit microservice
+ 
+ When all microservices are running you can start to interact with
+ the API by calling GET or POST methods in your Postman.
+ <br />
+ Credit service runs on port 8100 so to get all credits you will
+ need to send GET request to:
+  [localhost://8100/credits](localhost://8100/credits)
+    
  ## Needs implementation
  
  The application is in a prototype version. There are several requirements that
